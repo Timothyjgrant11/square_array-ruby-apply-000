@@ -4,4 +4,5 @@ def square_array(array)
   array.each do |integer| 
     new_array << interger ** 2
 end
-return
+return new_array
+end
